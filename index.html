@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-body">
+
+    <div class="container">
+        <div class="background-content">
+            <div class="container-content">
+
+                <!-- the input and button to add a new task -->
+                <div class="main-action-container">
+                    <div class="action-container">
+                        <input type="text" name="add_task" id="add_task" placeholder="Add a new task">
+                        <button id="add_task_button" onclick="addTask()">
+                            <img src="assets/Plus.svg" alt="Add">
+                        </button>
+                    </div>
+                    <div class="error-message">
+                        <!-- This is required -->
+                    </div>
+                </div>
+
+                <!-- The list of undone tasks -->
+                 <div class="task-container-todo">
+                    <p class="task-container-title">
+                        Tasks to do - <span class="number-of-tasks-todo">4</span>
+                    </p>
+
+                    <!-- <div id="task-1" class="task-container-todo-list">
+                        <p class="task-title">To study React fundamentals</p>
+                        <div class="task-action">
+                            <button>
+                                <img src="assets/Check.svg" alt="Check">
+                            </button>
+                            <button>
+                                <img src="assets/TrashSimple.svg" alt="Check">
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div id="task-1" class="task-container-todo-list">
+                        <p class="task-title">To study React fundamentals</p>
+                        <div class="task-action">
+                            <button>
+                                <img src="assets/Check.svg" alt="Check">
+                            </button>
+                            <button>
+                                <img src="assets/TrashSimple.svg" alt="Check">
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div id="task-1" class="task-container-todo-list">
+                        <p class="task-title">To study React fundamentals</p>
+                        <div class="task-action">
+                            <button>
+                                <img src="assets/Check.svg" alt="Check">
+                            </button>
+                            <button>
+                                <img src="assets/TrashSimple.svg" alt="Check">
+                            </button>
+                        </div>
+                    </div> -->
+
+
+                    
+                 </div>
+
+
+                 <!-- The list of done tasks -->
+
+                 <div class="task-container-done">
+                    <p class="task-container-title">
+                        Done - <span class="number-of-tasks-done">4</span>
+                    </p>
+
+                    <!-- <div id="task-1" class="task-container-done-list">
+                        <p class="task-title">To study React fundamentals</p>
+                    </div> -->
+
+
+                    
+                 </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
