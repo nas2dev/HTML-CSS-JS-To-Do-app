@@ -19,6 +19,11 @@ const tasks = [
         title: "To study Node fundamentals",
         completed: true
     },
+    {
+        id: 4,
+        title: "To analyze shell scripts",
+        completed: false
+    },
 ]
 
 
